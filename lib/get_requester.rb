@@ -4,7 +4,7 @@ require 'json'
 
 class GetRequester
 
-URL = 
+URL =
 
   def get_response_body
     uri = URI.parse(URL)
@@ -13,7 +13,7 @@ URL =
   endpoints
 
   def parse_json
-    
+
 
 
 
