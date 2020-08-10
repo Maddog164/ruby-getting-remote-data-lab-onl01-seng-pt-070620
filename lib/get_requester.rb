@@ -13,6 +13,11 @@ URL =
   endpoints
 
   def parse_json
+    hold_info = JSON.parse(self.get_response_body)
+    hold_info.collect do |info|
+      program["sub-info"]
+    end
+  end
 
 
 
