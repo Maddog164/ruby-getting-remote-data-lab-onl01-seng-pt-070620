@@ -19,7 +19,7 @@ URL = "https://learn-co-curriculum.github.io/json-site-example/endpoints/people.
   def parse_json
     hold_info = JSON.parse(self.get_response_body)
     hold_info.collect do |info|
-      program["sub-info"]
+      info["sub-info"]
     end
   end
 
