@@ -21,6 +21,7 @@ URL = "https://learn-co-curriculum.github.io/json-site-example/endpoints/people.
     hold_info.collect do |info|
       info["sub-info"]
     end
+    hold_info
   end
 
 end
