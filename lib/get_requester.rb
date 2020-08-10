@@ -10,7 +10,7 @@ URL =
     uri = URI.parse(URL)
     response = Net::HTTP.get_response(uri)
     response.body
-  endpoints
+  end
 
   def parse_json
     hold_info = JSON.parse(self.get_response_body)
